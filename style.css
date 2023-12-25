@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    border: solid black 1px;
+    width: 90vh;
+    height: 90vh;
+}
+
+input.remove_arrows::-webkit-outer-spin-button,
+input.remove_arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number].remove_arrows{
+    -moz-appearance: textfield;
+}
+
+@media (max-width: 768px) {
+    canvas{
+        width: 90vw;
+        height: 90vw;
+    }
+}
+
+.form-check-input{
+    background-color: #ffc107 !important;
+    border-color: #ffc107!important;
+}
